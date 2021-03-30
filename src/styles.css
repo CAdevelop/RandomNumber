@@ -1,0 +1,84 @@
+body{
+    background-color: #482728;
+    color: #C0F8D1  ;
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3.4rem;
+    margin: 1.8rem 0;
+    text-align: center;
+}
+
+label,p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+input{
+    padding: 1rem;
+    background-color: #C0F8D1;
+    color: #482728;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.app__container{
+    max-width: 1000px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.app__inputs{
+    display: flex;
+    flex-flow: column;
+}
+
+.app__inputs label,.app__inputs input{
+    margin: 1rem 0;
+}
+
+.app__inputs button{
+    margin-top: 2rem;
+}
+
+.app__outputs{
+    margin-top: 4rem;
+    display: row;
+    align-items: center;
+}
+
+.result{
+    font-size: 5rem;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+button{
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: #C0F8D1;
+    border: #C0F8D1 2px solid;
+    border-radius: 30px;
+    padding: 0.5rem;
+    background-color: #482728;
+}
+
+button:hover{
+    background-color: #C0F8D1;
+    color: #482728;
+    transition: all .4s ease;
+    cursor: pointer;
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
