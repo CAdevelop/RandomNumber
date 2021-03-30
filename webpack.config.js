@@ -9,7 +9,7 @@ module.exports = {
   mode: "production",
   output: {
     filename: "[name].js",
-    path: __dirname + "/dist",
+    path: __dirname,
   },
   plugins: [
     new HtmlWebpackPlugin({
